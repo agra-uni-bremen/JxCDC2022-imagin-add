@@ -5,7 +5,7 @@ Artifacts of the paper: "IMAGIN: Library of IMPLY and MAGIC NOR Based Approximat
 
 ##Folder Structure
 
-This magic_based folder contains the Pareto-optimal deisgns for MAGIC NOR based approximate adders
+This magic_based folder contains the Pareto-optimal deisgns for MAGIC NOR based approximate adders.
 
 ```
 |-> 8-bit 
@@ -18,6 +18,10 @@ This magic_based folder contains the Pareto-optimal deisgns for MAGIC NOR based 
 	|-> DesignMetric_ErrorMetric
                 |-> NAB-bit 2, 4, 6, 8, 10, 12, and 14 # Number of Approximated bits
 ```
+
+Similarly imply_based folder contains the Pareto-optimal designs for the IMPLY based approximate adders.
+
+NOTE: In our paper we did the pareto analysis on all the NAB designs again to obtain the overall Pareto. However we have presented the designs here for separately for all the NABs for better granularity 
 
 ### Subfolder Structure
 
