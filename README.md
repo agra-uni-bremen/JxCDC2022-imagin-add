@@ -21,7 +21,7 @@ This magic_based folder contains the Pareto-optimal deisgns for MAGIC NOR based 
 
 Similarly imply_based folder contains the Pareto-optimal designs for the IMPLY based approximate adders.
 
-NOTE: In our paper we did the pareto analysis on all the NAB designs again to obtain the overall Pareto. However we have presented the designs here for separately for all the NABs for better granularity 
+NOTE: In our paper we did the pareto analysis on all the NAB designs again to obtain the overall Pareto. However we have presented the designs here for separately for all the NABs for better granularity. 
 
 ### Subfolder Structure
 
@@ -55,7 +55,7 @@ The ports need to be read as
 Please Note:
 	Final output of the addition will be formed by concatenating {Carry,Sum}. 
 	The inputs are from LSB to MSB unlike SUM output which is from MSB to LSB.
-
+In case you want to use the designs in the conventional manner a top module can be created which does the port mapping for all inputs and outputs from MSB to LSB.
 ## Citation
 
 To cite this paper use
